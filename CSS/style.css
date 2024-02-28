@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+   }
+body{
+   width: 100%;
+   color: #240c0c;
+   text-align: center;
+   min-height: 100vh;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+.container{
+      width: 50%;
+      overflow-y: scroll;
+      height: 90vh;
+      padding: 15px 2%;
+      box-shadow: 0 0 5px rgba(2, 104, 19, 0.938);
+  }
+.container::-webkit-scrollbar{
+      width: 14px;
+      border: 1px solid rgb(153, 0, 0);
+  }
+.container::-webkit-scrollbar-thumb{
+      background-color: rgb(41, 0, 153);
+      border-radius: 6px;
+  }
+.hr_dados1{
+   border-top: medium dashed #00995e;
+   border-bottom: medium dashed #009952;
+   height: 5px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+.hr_dados1::after {
+   content: "PAULO VILELA FURTADO";
+   display: inline-block;
+   position: relative;
+   top: -0.7em;
+   font-size: 1.4em;
+   padding: 0 0.3em;
+   background: white;
+ }
+.hr_01{
+   border-top: medium dashed  #00995e;
+   border-bottom: medium dashed  #00995e;
+   height: 3px;
+   overflow: visible;
+   padding: 0;
+   text-align: center;
+ }
+
+ .btn{
+    background-color: #f9004d;
+    text-align: center;
+    /*width: 300px;*/
+    
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:7px;
+    border-radius: 20px;
+    transition: transform .8s;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color:#03015f;
+    letter-spacing: 10px;
+}
+
+ 
+/*----SOBRE-MIM-----*/
+.background-sobre{
+    background-image: linear-gradient(to top, #2a226e, #845d559f);
+    background-attachment: fixed;
+    width: 100%;
+    padding: 100px 0;
+    border-bottom: 1px solid #000000bb;
+}
+
+.background-sobre img{
+    width: 320px;
+    height: auto;
+    background-image: linear-gradient(to top, #413131, #5f52ce);
+    border-radius: 10%;
+    transition: all .55s ease;
+}
+
+.background-sobre img:hover{
+    transform: translateY(-10px);
+    -webkit-transform: scale(1.2);
+}
+/*---FIM-SOBRE-MIM-----*/
+
+/*----FORMAÇÕES-----*/
+
+   .resume{
+    background-image: linear-gradient(to bottom, #1b1646, #312522b0);
+    background-attachment: fixed;
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px solid #0000009a;
+}
+
+
+ .section-title h2 {
+    color: #fff;
+    font-size: 30px;
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .section-title p{
+    color: rgba(231, 232, 235, 0.822);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    text-indent: 25px;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #418530;
+    position: relative;
+    margin-left: 120px;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #cacaca;
+    margin-bottom: 10px;
+  }
+  
+.resume-item ul li, em{
+    color: #ffefc3;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: rgb(230, 230, 230);
+    border: 2px solid #1f9773;
+  }
+
+  /*---FIM-FORMAÇÕES-----*/
+
+/*------------FOOTER------------*/
+
+
+footer{
+    background-image: linear-gradient(to bottom left, #1b1646, #251c1abb);
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+
+.footer-p{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.redes-sociais  a{
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    margin: 22px 10px ;
+}
+
+.icon a{
+    color: #fff;
+    
+}
+
+/*-----------FIM-FOOTER------------*/
